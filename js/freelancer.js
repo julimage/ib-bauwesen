@@ -4,34 +4,45 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+//$(document).ready(function () {
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function() {
+        $('.page-scroll a').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
-});
 
-// Floating label headings for the contact form
-$(function() {
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-        $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
-        $(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
-        $(this).removeClass("floating-label-form-group-with-focus");
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 150
+    })
+
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
     });
-});
 
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
+    // PREVENTING SCROLL on GoogleMap
+    // https://github.com/kylelam/kylelam.github.io/blob/master/iframe.html
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+    // set the mouse events to none when doc is ready
+    $('#map').addClass('scrolloff');
+
+    // when mouse down, set the mouse events free
+    $('#overlay').on("mousedown",function(){
+        console.log("removed");     
+        $('#map').removeClass('scrolloff');
+    });
+
+    // becuase the mouse up doesn't work...
+    $("#map").mouseleave(function () {
+      // set the pointer events to none when mouse leaves the map area             
+      $('#map').addClass('scrolloff');            
+    });
+//});

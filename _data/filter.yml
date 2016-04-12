@@ -1,0 +1,22 @@
+---
+- filter1:
+  name: Projekttyp
+  items:
+    - "Sanierung & Modernisierung"
+    - "Neubau"
+    - "Erweiterungsbau"
+    - "Freiflächengestaltung"
+    - "Umbau"
+    - "Komplettrückbau"
+- filter2:
+  name: Bautyp
+  items:
+    - "Wohnbau"
+    - "Gewerbebau"
+    - "Industriebau"
+    - "Freifläche"
+    - "Kommunalbau"
+    - "Bürogebäude"
+    - "Gedänkstätte"
+    - "Ärztehaus"
+---
