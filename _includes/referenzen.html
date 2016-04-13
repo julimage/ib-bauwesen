@@ -25,18 +25,15 @@
       </div>
     </div>
     <div class="row">
-      {% for post in site.posts %}
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-            </a>
-          </div>
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+      {% for element in site.data.references %}
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
+            <img src="img/portfolio/{{ element.img-1 }}" class="img-responsive" alt="{{ post.alt }}">
+          </a>
+        </div>
       {% endfor %}
+      </div>
     </div>
   </div>
 </section>

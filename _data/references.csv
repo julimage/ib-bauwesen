@@ -1,0 +1,52 @@
+id,jahr,ort,bautyp,denkmal,projekttyp,leistung,titel,img-1,img-2,alt
+1,1992,Bad Liebenwerda,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+2,1992,Bad Liebenwerda,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+3,1996,Bad Liebenwerda,Wohnbau,0,Umbau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+4,1997,Bad Liebenwerda,Gewerbebau,0,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",EinkaufsCenter,tmp.png,temp2.png,TODO
+5,1998,Bad Liebenwerda,"Wohnbau,Gewerbebau",1,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",Wohn-/Geschäftshaus,tmp.png,temp2.png,TODO
+6,1998,Bad Liebenwerda,Wohnbau,0,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",MFH,tmp.png,temp2.png,TODO
+7,1998,Bad Liebenwerda,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+8,1999,Elsterwerda,Bürogebäude,0,Neubau,"Entwurf, Planung, Baubetreuung",Bürogebäude,tmp.png,temp2.png,TODO
+9,1999,Zabeltitz,Gewerbebau,0,"Sanierung/Modernisierung, Erweiterungsbau","Entwurf, Planung, Baubetreuung",Einkaufsmarkt,tmp.png,temp2.png,TODO
+10,1999,Elsterwerda,Gewerbebau,0,Erweiterungsbau,Baubetreuung,Autohaus,tmp.png,temp2.png,TODO
+11,2000,Bad Liebenwerda,"Wohnbau,Gewerbebau",1,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",Wohn-/Geschäftshaus,tmp.png,temp2.png,TODO
+12,2002,Radeberg,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",6WE,tmp.png,temp2.png,TODO
+13,2002,Bad Liebenwerda,Kommunalbau,0,"Sanierung/Modernisierung, Erweiterungsbau","Entwurf, Planung, Baubetreuung",Sporthalle,tmp.png,temp2.png,TODO
+14,2004,Kayh,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+15,2007,Bad Liebenwerda,"Gedenkstätte,Freifläche",1,Freiflächengestaltung,"Entwurf, Planung, Baubetreuung",Ehrenfriedhof,tmp.png,temp2.png,TODO
+16,2008,Bad Liebenwerda,"Gedenkstätte,Freifläche",1,"Freiflächengestaltung, Neubau","Entwurf, Planung, Baubetreuung",Lager Mühlberg,tmp.png,temp2.png,TODO
+17,2008,Bad Liebenwerda,Gewerbebau,0,Neubau,Baubetreuung,Blumenladen,tmp.png,temp2.png,TODO
+18,2009,Bad Liebenwerda,Gewerbebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Ausstellungsräume,tmp.png,temp2.png,TODO
+19,2009,Bad Liebenwerda,Gewerbebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Aufzug mit Anbau,tmp.png,temp2.png,TODO
+20,2009,Bad Liebenwerda,Gewerbebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Treppenhäuser,tmp.png,temp2.png,TODO
+21,2009,Oranienburg,Gedenkstätte,1,Freiflächengestaltung,"Entwurf, Planung, Baubetreuung",Hochkreuz,tmp.png,temp2.png,TODO
+22,2010,Bad Liebenwerda,Gewerbebau,0,Komplettrückbau,"Planung, Baubetreuung",Lindenhof,tmp.png,temp2.png,TODO
+23,2010,Bad Liebenwerda,Gewerbebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Büroausbau,tmp.png,temp2.png,TODO
+24,2011,Bad Liebenwerda,Gewerbebau,0,"Sanierung/Modernisierung, Erweiterungsbau","Planung, Baubetreuung",Gaststätte,tmp.png,temp2.png,TODO
+25,2011,Bad Liebenwerda,Freifläche,0,Freiflächengestaltung,"Planung, Baubetreuung",Parkplatz,tmp.png,temp2.png,TODO
+26,2012,Bad Liebenwerda,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+27,2012,Bad Liebenwerda,"Wohnbau, Gewerbebau",0,Erweiterungsbau,"Entwurf, Planung, Baubetreuung",Wohn-/Geschäftshaus,tmp.png,temp2.png,TODO
+28,2012,Doberlug-Kirchhain,Kommunalbau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Feuerwehr,tmp.png,temp2.png,TODO
+29,2013,Torgau,Wohnbau,1,Sanierung/Modernisierung,"Planung, Baubetreuung",MFH,tmp.png,temp2.png,TODO
+30,2013,Wahrenbrück,Industriebau,0,Neubau,"Planung, Baubetreuung",Industriehalle,tmp.png,temp2.png,TODO
+31,2013,Doberlug-Kirchhain,Kommunalbau,0,Neubau,"Entwurf, Planung, Baubetreuung",Feuerwehr,tmp.png,temp2.png,TODO
+32,2013,Bad Liebenwerda,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+33,2013,Doberlug-Kirchhain,Industriebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Wasserwerk,tmp.png,temp2.png,TODO
+34,2013,Doberlug-Kirchhain,Bürogebäude,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Bürogebäude,tmp.png,temp2.png,TODO
+35,2013,Bad Liebenwerda,Freifläche,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Hofgestaltung,tmp.png,temp2.png,TODO
+36,2014,Doberlug-Kirchhain,Industriebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Garage,tmp.png,temp2.png,TODO
+37,2014,Bad Liebenwerda,Wohnbau,0,Sanierung/Modernisierung,Baubetreuung,MFH,tmp.png,temp2.png,TODO
+38,2014,Doberlug-Kirchhain,Kommunalbau,0,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",Kita,tmp.png,temp2.png,TODO
+39,2014,Bad Liebenwerda,Gewerbebau,0,"Sanierung/Modernisierung, Umbau","Planung, Baubetreuung",Bürogebäude,tmp.png,temp2.png,TODO
+40,2014,Doberlug-Kirchhain,Industriebau,0,Komplettrückbau,"Planung, Baubetreuung",Wasserwerk,tmp.png,temp2.png,TODO
+41,2014,Torgau,Industriebau,0,Komplettrückbau,"Planung, Baubetreuung",Industriehallen,tmp.png,temp2.png,TODO
+42,2014,Doberlug-Kirchhain,Wohnbau,0,Erweiterungsbau,"Entwurf, Planung, Baubetreuung",Badanbau,tmp.png,temp2.png,TODO
+43,2014,Doberlug-Kirchhain,Gewerbebau,0,Umbau,"Planung, Baubetreuung",GaststŠtte,tmp.png,temp2.png,TODO
+44,2014,Bad Liebenwerda,Gewerbebau,1,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",Orgelakademie,tmp.png,temp2.png,TODO
+45,2015,Bad Liebenwerda,Gewerbebau,0,"Sanierung/Modernisierung, Umbau","Entwurf, Planung, Baubetreuung",Gaststätte,tmp.png,temp2.png,TODO
+46,2015,Bad Liebenwerda,Wohnbau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",EFH,tmp.png,temp2.png,TODO
+47,2015,Bad Liebenwerda,Wohnbau,1,"Sanierung/Modernisierung, Erweiterungsbau","Entwurf, Planung, Baubetreuung",MFH,tmp.png,temp2.png,TODO
+48,2015,Bad Liebenwerda,Wohnbau,0,Erweiterungsbau,"Entwurf, Planung, Baubetreuung","DG-Ausbau, Balkon",tmp.png,temp2.png,TODO
+49,2015,Rückersdorf,Wohnbau,0,Komplettrückbau,"Planung, Baubetreuung",Wohnblock,tmp.png,temp2.png,TODO
+50,2015,Doberlug-Kirchhain,Freifläche,0,Freiflächengestaltung,"Planung, Baubetreuung",Parkplatz,tmp.png,temp2.png,TODO
+51,2016,Bad Liebenwerda,"Bürogebäude, Ärztehaus",0,"Sanierung/Modernisierung, Umbau","Entwurf, Planung, Baubetreuung",Ärztehaus,tmp.png,temp2.png,TODO
