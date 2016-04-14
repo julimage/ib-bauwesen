@@ -22,15 +22,21 @@
           </dd>
           {% endfor %}
         </dl>
+        <a href="TODO"><i class="fa fa-fw fa-times"></i>&nbsp;Filter zurücksetzen</a>
+        <h4 class="secondary">Sehen Sie hier die Ergebnisse für “Neubau”</h4>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
       {% for element in site.data.references %}
-        <div class="col-sm-4 portfolio-item">
+        <div class="col-sm-4 portfolio-item">  
           <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
             <img src="img/portfolio/{{ element.img-1 }}" class="img-responsive" alt="{{ post.alt }}">
+            {% if element.denkmal == "1" %}
+            <img class="portfolio-denkmal" src="{{ site.baseurl }}/img/denkmal.png">
+            {% endif %}
           </a>
+          <div class="portfolio-title"><small>{{ element.titel }}</small></div>
         </div>
       {% endfor %}
       </div>
