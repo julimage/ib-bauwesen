@@ -8,7 +8,6 @@ meta_author: LastName FirstName
 
 # Build settings
 markdown: kramdown
-permalink: pretty
 
 collections:
 - kernleistungen
