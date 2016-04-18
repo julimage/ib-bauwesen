@@ -239,6 +239,8 @@ dd {
   .portfolio-title {
     background-color: $brand-primary;
     color: $font-color-inverted;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .portfolio-magnify {
