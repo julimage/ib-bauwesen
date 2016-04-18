@@ -45,4 +45,32 @@
       // set the pointer events to none when mouse leaves the map area             
       $('#map').addClass('scrolloff');            
     });
+
+    // Filter References
+    $(".filter-items a, .filter-reset").on("click", function(event){
+        event.preventDefault();
+        var el = $(this);
+        var filter = el.attr("data-filter");
+
+        // remove previous filter
+        $(".filter-items a").removeClass("active");
+
+        // depending on filter or reset
+        if (filter === 'all') {
+            $('.portfolio-item').show();
+            $('.filter-reset').hide();
+            $('.filter-info').hide();
+        } else {
+            var category = el.html();
+            el.addClass('active');
+            $('.filter-category').html(category);
+            $('.filter-info').show();
+            $('.filter-reset').show();
+
+            console.log(filter);
+            $('.portfolio-item').hide();
+            $(filter).show();
+        }
+    });
+
 //});

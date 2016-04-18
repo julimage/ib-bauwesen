@@ -213,11 +213,15 @@ dd {
       color: $text-color;
     }
 
-    &.selected-filter {
+    &.active {
       background-color: $gray-dark;
       color: $font-color-inverted;
     }
   }
+}
+
+.filter-reset, .filter-info {
+  display: none;
 }
 
 // REFERENZEN

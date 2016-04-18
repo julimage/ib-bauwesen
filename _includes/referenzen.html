@@ -12,31 +12,32 @@
         <p>Seit über 20 Jahren begleiten wir Sie mit einer anforderungsgerechten Planung und praxisorientierten Lösungen an Ihr Ziel.<br>Laden Sie unsere gesamten <a href="TODO">Referenzen als PDF&nbsp;<i class="fa fa-fw fa-file-pdf-o"></i></a>runter.</p>
         <p>Im Folgenden erhalten Sie einen Überblick über ausgewählte Projekte.</p>
         <h4 class="secondary">Filtern Sie unsere Referenzen nach:</h4>
-        <dl class="dl-horizontal">
+        <dl class="dl-horizontal filter-items">
           {% for item in site.data.filter %}
-          <dt>{{ item.name }}</dt>
+          <dt>{{ item.filtername }}</dt>
           <dd>
             {% for elem in item.items %}
-            <a href="#TODO">{{ elem }}</a>
+            <a href="#" data-filter=".{{ elem.id }}" data-filtername="{{ item.filtername }}">{{ elem.name }}</a>
             {% endfor %}
           </dd>
           {% endfor %}
         </dl>
-        <a href="TODO"><i class="fa fa-fw fa-times"></i>&nbsp;Filter zurücksetzen</a>
-        <h4 class="secondary">Sehen Sie hier die Ergebnisse für “Neubau”</h4>
+        <a href="#" class="filter-reset" data-filter="all"><i class="fa fa-fw fa-times"></i>&nbsp;Filter zurücksetzen</a>
+        <h4 class="secondary filter-info">Sehen Sie hier die Ergebnisse für <span class="filter-category">Neubau</span></h4>
+
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
       {% for element in site.data.references %}
-        <div class="col-sm-4 portfolio-item">  
+        <div class="col-sm-4 portfolio-item {{ element.filter }}">  
           <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-magnify">
               <div class="portfolio-magnify-content">
                 <i class="fa fa-search-plus fa-2x"></i>
               </div>
             </div>
-            <img src="img/portfolio/{{ element.img-1 }}" class="img-responsive" alt="{{ post.alt }}">
+            <img src="img/portfolio/{{ element.id }}/01.png" class="img-responsive" alt="{{ element.alt }}">
           </a>
           <div class="portfolio-title"><small>{{ element.titel }}</small></div>
         </div>
