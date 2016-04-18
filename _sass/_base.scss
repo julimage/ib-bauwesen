@@ -234,12 +234,6 @@ dd {
     border-top: $border solid $brand-primary;
 
     &:focus { outline: 0; }
-
-    .portfolio-denkmal {
-      position: absolute;
-      top: 0px;
-      right: $padding-base-horizontal;
-    }
   }
 
   .portfolio-title {
