@@ -14,7 +14,39 @@
           <div class="modal-body">
             <h2>{{ element.titel }}</h2>
             <hr>
-            <img src="img/portfolio/{{ element.id }}/01.png" class="img-responsive img-centered" alt="{{ element.alt }}">
+            <ul class="list-inline">
+              <li><small>Fertigstellung:</small>&nbsp;{{ element.jahr }}</li>
+              <li><small>Standort:</small>&nbsp;{{ element.ort }}</li>
+              <li><small>Bautyp:</small>&nbsp;{{ element.bautyp }}</li>
+              <li><small>Projekttyp:</small>&nbsp;{{ element.projekttyp }}</li>
+              <li><small>Leistung:</small>&nbsp;{{ element.leistung }}</li>
+            </ul>
+            {% assign denkmal = element.denkmal | plus: 0 %}
+            {% if denkmal == 1 %}
+            <p>Dieses Gebäude steht unter <span class="important">Denkmalschutz</span>.</p>
+            {% endif %}
+            
+            {% assign num = element.img-2 | plus: 0 %}
+
+            {% if num == 1 %}
+            <img src="img/portfolio/{{ element.id }}/1.png" class="img-responsive img-centered" alt="{{ element.alt }}">
+            {% endif %}
+
+            <div class="row">
+            {% if num > 1 %}
+              {% assign num = num | plus: 1 %}
+              {% assign alts = element.alt | split: ',' %}
+              {% for i in (2..num) %}
+              {% assign numalt = i | minus: 2 %}
+              <div class="col-lg-6">
+                <img src="img/portfolio/{{ element.id }}/{{ i }}.png" class="img-responsive img-centered" alt="{{ alts[numalt] }}">
+                <p>{{ alts[numalt]}}</p>
+              </div>
+              {% endfor %}
+            {% endif %}
+            </div>
+
+            
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
           </div>
         </div>
