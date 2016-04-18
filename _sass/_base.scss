@@ -240,6 +240,28 @@ dd {
     background-color: $brand-primary;
     color: $font-color-inverted;
   }
+
+  .portfolio-magnify {
+    background: rgba($gray, 0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    &:hover { opacity: 1; }
+  }
+  
+  .portfolio-magnify-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: $line-height-computed/2;
+    margin-top: -12px;
+    text-align: center;
+    font-size: $font-size-small;
+    color: $font-color-inverted;
+  } 
+
 }
 
 #referenzen * {

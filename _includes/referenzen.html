@@ -31,6 +31,11 @@
       {% for element in site.data.references %}
         <div class="col-sm-4 portfolio-item">  
           <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-magnify">
+              <div class="portfolio-magnify-content">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
             <img src="img/portfolio/{{ element.img-1 }}" class="img-responsive" alt="{{ post.alt }}">
           </a>
           <div class="portfolio-title"><small>{{ element.titel }}</small></div>
