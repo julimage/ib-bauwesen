@@ -145,7 +145,6 @@ header {
 
     h1 {
       font-size: $font-size-h3;
-      margin: $line-height-computed/2;
     }
 
     .tagline {
@@ -207,22 +206,37 @@ hr {
 }
 
 // Dienstleistungen
-#dienstleistunegn li {
+#dienstleistungen li {
   margin-bottom: $line-height-computed/4;
 }
 
-// Kontakt
-#kontakt {
-  .container {
-    margin-top: -(12 * $line-height-computed);
-    pointer-events: none;
-  }
+.dienstleistungen-content {
+  margin-top: $line-height-computed;
+  margin-bottom: 2 * $line-height-computed;
+}
 
-  .content {
-    height: 12 * $line-height-computed;
-    background-color: rgba(255,255,255,0.85);
+// Kontakt
+@media(min-width: $screen-lg-min) {
+  #kontakt {
+
+    .container {
+      margin-top: -(12 * $line-height-computed);
+      pointer-events: none;
+    }
+
+    .content {
+      height: 12 * $line-height-computed;
+      background-color: rgba(255,255,255,0.85);
+    }
   }
 }
+
+@media(max-width: $screen-lg-min) {
+  #kontakt {
+    background-color: $gray;
+  }
+}
+
 
 // Google Maps Stuff
 .scrolloff {
@@ -261,6 +275,12 @@ dd {
       background-color: $gray-dark;
       color: $font-color-inverted;
     }
+  }
+}
+
+@media(max-width: $screen-md-min) {
+  dd {
+    text-align: center;
   }
 }
 
