@@ -33,21 +33,40 @@ a {
   }
 }
 
-// NAVIGATION
+// BANNER (line at very top)
+.banner {
+  text-align: right;
+  background-color: $gray-dark;
+  font-size: $font-size-small;
+  padding: $line-height-computed/4 0;
+  ul { margin-bottom: 0px; }
+}
+
+// NAVIGATION - bootstrap affix
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.affix + .container {
+    padding-top: 46px;
+}
+
 @media(min-width:768px) {
-    .navbar-fixed-top {
+    .affix-top {
         padding: $line-height-computed/2 0;
         @include transition(padding .3s ease);
     }
 
-    .navbar-fixed-top .navbar-brand {
+    .affix-top .navbar-brand {
         @include transition(all .3s ease);
     }
 
-    .navbar-fixed-top.navbar-shrink {
+    .affix.navbar-shrink {
         padding: 0;
         img {
-          height: 1.25 * $line-height-computed;
+          height: 1 * $line-height-computed;
           margin: $line-height-computed/8 0px;
         }
     }
@@ -55,6 +74,7 @@ a {
 
 .navbar {
   text-transform: uppercase;
+  background-color: #FFFFFF;
 
   .navbar-nav li a {
 
