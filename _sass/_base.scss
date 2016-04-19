@@ -43,6 +43,13 @@ a {
 }
 
 // NAVIGATION - bootstrap affix
+
+@media(max-width: $screen-sm-min) {
+  .navbar-brand { font-size: $font-size-base; }
+  header h1 { font-size: $font-size-h4 !important; }
+  .modal-body h2 { font-size: $font-size-h4 !important; }
+}
+
 .affix {
     top: 0;
     width: 100%;
@@ -74,8 +81,6 @@ a {
       border: 0px;
       padding: 0px 0px 0px $padding-base-horizontal;
     }
-
-
 }
 
 .navbar-default .navbar-toggle{
@@ -157,7 +162,7 @@ header {
     span { display: inline-block; }
 }
 
-@media(min-width:768px) {
+@media(min-width: 768px) {
     header .container {
       padding-top: $line-height-computed;
       padding-bottom: $line-height-computed;

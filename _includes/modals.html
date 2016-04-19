@@ -29,7 +29,8 @@
             {% assign num = element.img-2 | plus: 0 %}
 
             {% if num == 1 %}
-            <img src="img/portfolio/{{ element.id }}/1.png" class="img-responsive img-centered" alt="{{ element.alt }}">
+            <img src="img/portfolio/{{ element.id }}/1.png" class="img-responsive img-centered" alt="{{ element.alt-1 }}">
+            <p>{{  element.alt-1 }}</p>
             {% endif %}
 
             <div class="row">

@@ -57,19 +57,17 @@
 
         // depending on filter or reset
         if (filter === 'all') {
-            $('.portfolio-item').show();
-            $('.filter-reset').hide();
-            $('.filter-info').hide();
+            $('.portfolio-item').fadeIn();
+            $('.filter-reset').fadeOut();
+            $('.filter-info').fadeOut();
         } else {
             var category = el.html();
             el.addClass('active');
             $('.filter-category').html(category);
             $('.filter-info').show();
             $('.filter-reset').show();
-
-            console.log(filter);
             $('.portfolio-item').hide();
-            $(filter).show();
+            $(filter).fadeIn();
         }
     });
 
