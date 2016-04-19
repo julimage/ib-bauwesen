@@ -46,7 +46,7 @@ a {
 .affix {
     top: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 2;
 }
 
 .affix + .container {
@@ -63,11 +63,10 @@ a {
         @include transition(all .3s ease);
     }
 
-    .affix.navbar-shrink {
-        padding: 0;
-        img {
+    .affix {
+        img.logo {
           height: 1 * $line-height-computed;
-          margin: $line-height-computed/8 0px;
+          padding: $line-height-computed/8 0px;
         }
     }
 }
@@ -75,6 +74,7 @@ a {
 .navbar {
   text-transform: uppercase;
   background-color: #FFFFFF;
+  margin-bottom: 0px;
 
   .navbar-nav li a {
 
@@ -95,7 +95,7 @@ a {
 .navbar-brand {
   border: 0px;
   padding: 0px 0px 0px $padding-base-horizontal;
-  img { height: 1.5 * $line-height-computed; }
+  img.logo { height: 1.5 * $line-height-computed; }
 }
 
 .navbar-default,
@@ -273,6 +273,7 @@ dd {
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 1;
 
     &:hover { opacity: 1; }
   }
@@ -288,10 +289,6 @@ dd {
     color: $font-color-inverted;
   } 
 
-}
-
-#referenzen * {
-    z-index: 2;
 }
 
 @media(min-width:767px) {
