@@ -195,6 +195,7 @@ section {
 
   &.dark-bg {
     background-color: $gray;
+    color: darken($gray-darker, 10%);
   }
 
   h2 {
