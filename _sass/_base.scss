@@ -107,6 +107,11 @@ a {
   border-color: transparent;
   margin-top: 0px;
   margin-bottom: 0px;
+
+  &:hover, &:focus {
+    background-color:$brand-primary;
+    color: $font-color-inverted;
+  }
 }
 
 .navbar-txt {
