@@ -251,6 +251,7 @@ hr {
     }
 
     .content {
+      pointer-events: all;
       height: 12 * $line-height-computed;
       background-color: rgba(255,255,255,0.85);
     }
@@ -260,6 +261,7 @@ hr {
 @media(max-width: $screen-lg-min) {
   #kontakt {
     background-color: $gray;
+    color: darken($gray-darker, 10%);
   }
 }
 
