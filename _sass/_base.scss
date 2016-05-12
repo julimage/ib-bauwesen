@@ -446,3 +446,32 @@ dd {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+// Scroll Top Button on moblie
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+// only in mobile version
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 20px;
+    padding-left: 13px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
