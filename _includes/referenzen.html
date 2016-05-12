@@ -29,7 +29,9 @@
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-      {% for element in site.data.references %}
+      {% for element in site.data.references reversed %}
+
+        {% if element.alt-1 != "Platzhalter" %}
         <div class="col-sm-4 portfolio-item {{ element.filter }}">  
           <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-magnify">
@@ -41,6 +43,26 @@
           </a>
           <div class="portfolio-title"><small>{{ element.titel }}</small></div>
         </div>
+        {% endif %}
+
+      {% endfor %}
+
+      {% for element in site.data.references reversed %}
+
+        {% if element.alt-1 == "Platzhalter" %}
+        <div class="col-sm-4 portfolio-item {{ element.filter }}">  
+          <a href="#portfolioModal-{{ element.id }}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-magnify">
+              <div class="portfolio-magnify-content">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/{{ element.id }}/1.png" class="img-responsive grayscale" alt="{{ element.alt-1 }}">
+          </a>
+          <div class="portfolio-title"><small>{{ element.titel }}</small></div>
+        </div>
+        {% endif %}
+
       {% endfor %}
       </div>
     </div>
