@@ -43,44 +43,64 @@ a {
 }
 
 // NAVIGATION - bootstrap affix
+@media(max-width: $screen-md-min) {
+  .affix {
+    padding: $line-height-computed/4 0;
+    @include transition(padding .3s ease);
+  }
+}
 
 @media(max-width: $screen-sm-min) {
-  .navbar-brand { font-size: $font-size-base; }
+  .affix {
+    padding: $line-height-computed/4 0;
+    @include transition(padding .3s ease);
+  }
+
   header h1 { font-size: $font-size-h4 !important; }
   .modal-body h2 { font-size: $font-size-h4 !important; }
 }
 
+@media(min-width: $screen-md-min) {
+  .affix-top .navbar-brand {
+    padding-top: $line-height-computed/4;
+  }
+
+  .affix .navbar-brand img.logo{
+    padding-top: $line-height-computed/4;
+    padding-bottom: 0px;
+  }
+}
+
 .affix {
-    top: 0;
-    width: 100%;
-    z-index: 2;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .affix + .container {
-    padding-top: 46px;
+  padding-top: 46px;
 }
 
-@media(min-width:768px) {
-    .affix-top {
-        padding: $line-height-computed/2 0;
-        @include transition(padding .3s ease);
-    }
 
-    .affix-top .navbar-brand {
-        @include transition(all .3s ease);
-    }
+.affix-top {
+  padding: $line-height-computed/2 0;
+  @include transition(padding .3s ease);
+}
 
-    .affix {
-        img.logo {
-          height: 1 * $line-height-computed;
-          padding: $line-height-computed/8 0px;
-        }
-    }
+.affix-top .navbar-brand {
+  @include transition(all .3s ease);
+}
 
-    .navbar-brand {
-      border: 0px;
-      padding: 0px 0px 0px $padding-base-horizontal;
-    }
+.affix {
+  img.logo {
+    height: 1 * $line-height-computed;
+    padding: $line-height-computed/8 0px;
+  }
+}
+
+.navbar-brand {
+  border: 0px;
+  padding: 0px 0px 0px $padding-base-horizontal;
 }
 
 .navbar-default .navbar-toggle{
@@ -107,7 +127,7 @@ a {
 
     border: 0px;
     color: $text-color;
-    padding: $line-height-computed/4 $padding-base-horizontal;
+    padding: $line-height-computed/2 $padding-base-horizontal;
 
     &:focus { color: $text-color; }
     &:hover { color: $brand-primary; }
