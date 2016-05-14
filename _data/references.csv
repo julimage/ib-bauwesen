@@ -30,13 +30,13 @@ id,jahr,ort,filter,bautyp,denkmal,projekttyp,leistung,titel,img-1,alt-1,img-2,al
 31,2013,Doberlug-Kirchhain,f11 f2,Kommunalbau,0,Neubau,"Entwurf, Planung, Baubetreuung",Feuerwehr,1.png,Neubau der Feuerwehr,2,"Straßen- und Seitenansicht, Rück- und Seitenansicht"
 32,2013,Bad Liebenwerda,f7 f2,Wohnbau,0,Neubau,"Entwurf, Planung, Baubetreuung",Einfamilienhaus,1.png,Ansicht nach Fertigstellung,1,–
 33,2013,Doberlug-Kirchhain,f9 f1,Industriebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Wasserwerk,1.png,Rückansicht,1,–
-34,2013,Doberlug-Kirchhain,f12 f1,Bürogebäude,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Bürogebäude,1.png,Sanierung Bürogebäude,3,"Seitenansicht vor der Sanierung, Eingang vor der Sanierung, Rückansicht nach Fertigstellung"
+34,2013,Doberlug-Kirchhain,f12 f1,Bürogebäude,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Bürogebäude,1.png,Sanierung Bürogebäude,5,"Seitenansicht vor der Sanierung, Eingang vor der Sanierung, Rückansicht nach Fertigstellung, Abriss der Garage, Abriss der Garage"
 35,2013,Bad Liebenwerda,f10 f1,Freifläche,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Hofgestaltung,1.png,Platzhalter,temp2.png,TODO
 36,2014,Doberlug-Kirchhain,f9 f1,Industriebau,0,Sanierung/Modernisierung,"Planung, Baubetreuung",Garage,1.png,Platzhalter,temp2.png,TODO
-37,2014,Bad Liebenwerda,f7 f1,Wohnbau,0,Sanierung/Modernisierung,Baubetreuung,Mehrfamilienhaus,1.png,Sanierung Mehrfamilienhaus,2,"Straßenansicht, Hinterhofansicht"
+37,2014,Bad Liebenwerda,f7 f1,Wohnbau,1,Sanierung/Modernisierung,Baubetreuung,Mehrfamilienhaus,1.png,Sanierung Mehrfamilienhaus,2,"Straßenansicht, Hinterhofansicht"
 38,2014,Doberlug-Kirchhain,f11 f1,Kommunalbau,0,Sanierung/Modernisierung,"Entwurf, Planung, Baubetreuung",Kindertagesstätte,1.png,Innengestaltung KiTa,4,"Modernisierung des Waschraumes, Gestaltung der Zimmerdecke, Gestaltung der Zimmerdecke, Gestaltung der Zimmerdecke"
 39,2014,Bad Liebenwerda,f8 f1 f5,Gewerbebau,0,Sanierung/Modernisierung Umbau,"Planung, Baubetreuung",Bürogebäude,1.png,Sanierung Bürogebäude,2,"Straßenansicht, Hofansicht"
-40,2014,Doberlug-Kirchhain,f9 f6,Industriebau,0,Komplettrückbau,"Planung, Baubetreuung",Wasserwerk,1.png,Rückbau,2,"Vorher: Garagentoransicht, Vorher: Rückansicht"
+40,2014,Doberlug-Kirchhain,f9 f6,Industriebau,0,Komplettrückbau,"Planung, Baubetreuung",Wasserwerk,1.png,Platzhalter,temp2.png,TODO
 41,2014,Torgau,f9 f6,Industriebau,0,Komplettrückbau,"Planung, Baubetreuung",Industriehallen,1.png,Platzhalter,temp2.png,TODO
 42,2014,Doberlug-Kirchhain,f7 f3,Wohnbau,0,Erweiterungsbau,"Entwurf, Planung, Baubetreuung",Badanbau,1.png,Platzhalter,temp2.png,TODO
 43,2014,Doberlug-Kirchhain,f8 f5,Gewerbebau,0,Umbau,"Planung, Baubetreuung",Gaststätte,1.png,Platzhalter,temp2.png,TODO

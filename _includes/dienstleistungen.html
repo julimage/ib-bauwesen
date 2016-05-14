@@ -40,7 +40,7 @@
         {% for item in site.leistungen %}
           <div class="col-lg-4 text-center dienstleistungen-content">
             <img src="{{ site.baseurl }}/img/{{ item.img }}" height="68px">
-            <h4 class="secondary">{{ item.title }}</h4>
+            <h4>{{ item.title }}</h4>
             <ul class="list-unstyled">
             {% for listelem in item.list %}
               <li>{{ listelem }}</li>
